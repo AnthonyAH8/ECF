@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+    font-family: 'Inter', sans-serif;
+    width: 98%;
+    cursor: pointer;
+}
+
+
+.navbar1 ul {
+    margin: 10px 0 0 0;
+}
+
+li {
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    padding: 0px 20px 0 0;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.navbar1{
+    display: inline;
+}
+
+.navbar1 a{
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.navbar2{
+    display: flex;
+    padding: 0px 120px;
+}
+.navbar2 li:last-child{
+    padding: 8px 16px;
+    background-color:#6415ff;  
+    border-radius: 5px;
+}
+
+.inscription{
+    color: #fff;
+}
+
+.navbar2 li:last-child:hover{
+    color: #000;
+    background-color: #8e8e8e;
+}
