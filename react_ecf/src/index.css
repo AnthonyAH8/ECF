@@ -1,9 +1,8 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     font-family: 'Inter', sans-serif;
-
 }
 
 h2{
@@ -11,7 +10,11 @@ h2{
     font-size: 30px;
 }
 
-span{
+.container{
+    max-width: 1000px;
+}
+
+.title span{
     font-weight: 900;
     background-color: #6415ff;
     color: #fff;
@@ -22,7 +25,7 @@ span{
 .title{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     align-items: center;
 }
@@ -47,3 +50,70 @@ li:hover{
     border-radius: 5px;
 }
 
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    width: 200px;
+    height: 350px;
+    background-color: #e8eaee;
+    margin: 30px 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.description{
+    padding: 5px;
+}
+img{
+    width: 200px;
+    height: 230px;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+.flex h2{
+    font-size: 15px;
+    margin: 0;
+    text-align: flex-start;
+    font-weight: 700;
+}
+
+.flex h3{
+    text-align: flex-start;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+
+}
+
+.flex h4{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.reviews{
+    display: inline-flex;
+    flex-direction: row;
+    background-color: #fff;
+    padding: 5px 20px;
+    border-radius: 30px;
+    position: absolute;
+    top: 190px;
+}
+
+.reviews span{
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+svg{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
