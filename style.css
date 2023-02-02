@@ -25,6 +25,10 @@ header{
     width: 100%;
 }
 
+.navbar1:hover{
+    color: #6415ff;
+}
+
 li {
     text-decoration: none;
     display: inline;
@@ -32,6 +36,19 @@ li {
     padding: 0px 20px 0 0;
     align-items: center;
 }
+
+
+.navbar2 li a:hover {
+    text-decoration: none;
+}
+
+.navbar2 a:hover{
+    border-bottom: 2px solid #6415ff;
+    color: #6415ff;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
 
 .container {
     display: flex;
@@ -78,16 +95,19 @@ a {
     border-radius: 5px;
 }
 
+.inscription:hover{
+    color: #00000080;
+    text-decoration: none;
+}
+
 .inscription {
     color: #fff;
     margin: 10px 0px;
 }
 
-.navbar2 li:last-child:hover {
-    color: #000;
-    background-color: #8e8e8e;
+iframe{
+    display: flex;
 }
-
 .food1 {
     margin-top: 100px;
     display: flex;
@@ -99,7 +119,7 @@ a {
 .presentationPic {
     width: 500px;
     height: 300px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .delicious{
@@ -110,6 +130,10 @@ a {
     flex-direction: column;
     width: 500px;
 }
+
+.order{
+    color: aquamarine;
+}
 h2{
     font-size: 40px;
     text-align: start;
@@ -117,6 +141,9 @@ h2{
     padding-bottom: 5px;
 }
 
+.incredible h2{
+    text-align: center;
+}
 .delicious h2{
     margin-top: 30px;
 }
@@ -127,7 +154,7 @@ h2{
     background-color: #6415ff;
     color: #fff;
     transform: rotateY(5deg) skew(-15deg);
-    display: table-row;
+    display: inline-block;
 }
 .skew span{
     margin: 10px;
@@ -140,6 +167,14 @@ h2{
     color: #fff;
 }
 
+.counter, .random{
+    padding: 8px 16px;
+    background-color: #6415ff;
+    border-radius: 2px;
+    color: #fff;
+}
+
+
 .delicious p{
     margin: 15px 0px;
     font-size: 12px;
@@ -151,11 +186,22 @@ h2{
     align-items: center;
 }
 
+.replace{
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+
+.possibilities:hover{
+    color: #6415ff;
+}
+
 .possibilities span{
     margin-right: 150px;
     font-size: 12px;
     text-align: center;
 }
+
 
 .since{
     margin-top: 0;
@@ -167,3 +213,325 @@ h4{
     color: #6415ff;
 }
 
+.prestation{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 100px auto;
+    flex-direction: column;
+}
+.prestations{
+    display: flex;
+    justify-content: center;
+    margin: 10px 100px;
+    text-align: center;
+}
+.prestations img{
+    width: 44px;
+    height: 44px;
+    text-align: center;
+}
+
+.prestation h2{
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+
+.prestation p{
+    margin: 10px 0;
+}
+
+h6{
+    color: #243e63;
+}
+
+h6:hover{
+    color: #6415ff;
+}
+
+.prestation1, .prestation2, .prestation3{
+    box-shadow: 0px 0px 2px 4px #00000080;
+    margin: 5px 10px;
+    padding: 10px;
+}
+
+.statistics{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 20px 0;
+}
+
+.commands, .customers, .chefs{
+    margin: 0 10px;
+    text-align: center;
+}
+
+.dots{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 1870px;
+    right: 450px;
+    z-index: -1;
+}
+
+.dots2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 990px;
+    right: 950px;
+    z-index: -1;
+}
+
+.dots3{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 400px;
+    right: 230px;
+    z-index: -1;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #e8eaee;
+}
+
+.infos{
+    padding-top: 50px;
+    margin: 0px 10px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+footer h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.infos li{
+    margin-bottom: 4px;
+    font-size: 12px;
+    border-bottom: transparent;
+}
+
+.infos li:hover{
+    text-decoration: underline;
+    color: #6415ff;
+}
+
+input{
+    background-color: #edf2f6;
+    outline: none;
+    border: hidden;
+}
+
+input:focus{
+    background-color: lightgreen;
+    color: #6415ff;
+    border: 2px solid #6415ff;
+}
+
+.subscribe{
+    background-color: #6415ff;
+    border: #6415ff;
+    color: #edf2f6;
+    padding: 9px 12px;
+    border-radius: 2px;
+}
+
+.complement{
+    display: flex;
+    font-size: 12px;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.name{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.infos h3{
+    margin: 0 0 10px 0;
+}
+
+.name h3{
+    text-transform: capitalize;
+}
+
+.socialNetworks img{
+    background-color: #000;
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 40px;
+    height: pic0px;
+    margin-right: 10px;
+}
+
+.burger{
+    display: none;
+}
+
+form{
+    display: flex;
+    margin-top: 10px;
+}
+
+hr{
+    color: #6415ff;
+    margin: 15px;
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+      .navbar2{
+        display: flex;
+        position: absolute;
+        width: 100%;
+        height: 90vh;
+        top: 0;
+        left: 0;
+        justify-content: center;
+        align-items: center;
+        background-color: #e8eaee;
+        transition: 0.5s ease-in-out;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    } 
+
+    .menu ul{
+        display: none;
+    }
+
+    .dinner{
+        display: none;
+    }
+    
+
+    .delicious{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify
+    }
+    .burger{
+        display: flex;
+        position: absolute;
+        top: 2%;
+        right: 10%;
+    }
+
+    .navbar2 ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: 0.5s ease-in;
+    }
+
+    .replace{
+        margin-top: 50px;
+    }
+
+    .navbar2 ul li{
+        padding: 25px 0;
+    } 
+    .food1, .choose{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .presentationPic{
+        margin-top: 40px;
+    }
+
+    .condiments{
+        width: 600px;
+    }
+
+    .fries{
+        width: 400px;
+        height: 300px;
+    }
+    
+    .hamburger{
+        margin-top: 80px;
+        
+    }
+    
+    .dots3{
+        position: absolute;
+        top:650px;
+        right: 10%;
+
+    }
+
+    .dots2{
+        position: absolute;
+        top: 1245px;
+        right: 42%;
+    }
+
+    .dots{
+        position: absolute;
+        top: 2850px;
+        left: 44%;
+    }
+
+    h4{
+        text-align: center;
+    }
+
+    .incredible{
+        margin: auto;
+    }
+
+    .prestations{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .prestation1, .prestation2, .prestation3{
+        box-shadow: none;
+    }
+
+    .container .stats{
+        margin-bottom: 10px;
+    }
+
+    .choose{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .choose .delicious{
+        margin-top: 80px;
+    }
+    
+    .mentions{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    } 
+
+    .complement{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+} 
