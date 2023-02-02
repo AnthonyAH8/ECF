@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
-import Main from "./component/main";
+import Main from "./pages/main";
+
 
 
 function App() {
